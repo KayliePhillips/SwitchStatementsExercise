@@ -4,7 +4,8 @@
 Console.WriteLine("What is your favorite school subject");
 var userInput = (Console.ReadLine());
 
-switch (userInput)
+
+switch (userInput.ToLower())
 {
     case "math":
         Console.WriteLine("Math is fun and useful!");
@@ -13,6 +14,7 @@ switch (userInput)
         Console.WriteLine("Science can be exciting, especially when you do experients!");
         break;
     case "english":
+
         Console.WriteLine("English will be helpful for proper grammer.");
         break;
     case "reading":
